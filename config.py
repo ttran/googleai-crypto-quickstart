@@ -5,7 +5,7 @@ DATA_CONFIG = {
     "start": "2021-05-01", # YYYY-MM-DD
     "end": "2021-05-31", # YYYY-MM-DD
     "interval": "1m", # See https://github.com/binance/binance-public-data/#intervals for intervals
-    "bucket_name": "" # must be globally unique
+    "bucket_name": "" # must be globally unique - https://cloud.google.com/storage/docs/naming-buckets
 }
 
 TRADE_CONFIG = {
